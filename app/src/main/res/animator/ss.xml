@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <set>
+        <objectAnimator
+            android:duration="500"
+            android:propertyName="@android:string/cancel"
+
+            android:valueTo="400"
+            android:valueType="intType" />
+        <objectAnimator
+            android:duration="500"
+            android:propertyName="@android:string/copy"
+            android:valueTo="300"
+            android:valueType="intType" />
+    </set>
+    <objectAnimator
+        android:duration="500"
+        android:propertyName="@android:string/copyUrl"
+        android:valueTo="1f" />
+</set>
